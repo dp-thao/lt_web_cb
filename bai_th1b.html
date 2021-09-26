@@ -55,26 +55,28 @@
                 <label for="">Ý kiến khác:</label>
                 <textarea name="" style="width:70%"></textarea>
             </div>
-        </fieldset>
+        </fieldset><br>
     
-        <fieldset>
+        <fieldset style="display: flex;  align-items: stretch;">
             <legend>Thông tin cá nhân</legend>
-            <div style="width: 50%; float: left;">
-                <label for="fname">Họ và tên:</label>
-                <input type="text" id="fname" name="fname" value=""><br>
-                <div style="width: 40%; display: inline-block;">
-                    <label for="fold">Độ tuổi:</label>
+            <div style="display: flex; flex-direction: column; margin-right: 30%; justify-content: space-evenly;">
+                <div>
+                    <label for="fname">Họ và tên:</label>
+                    <input type="text" id="fname" name="fname" value=""><br>
                 </div>
-                <input type="number" id="quantity" name="quantity" min="18" max="24" value="18"><br>
-                <div style="width: 40%; display: inline-block;">
-                    <label for="fgender">Giới tính:</label>
+                <div>
+                    <label for="fold">Độ tuổi:&emsp;&emsp;&emsp;&emsp;</label>
+                    <input type="number" id="quantity" name="quantity" min="18" max="24" value="18"><br>
                 </div>
-                <input type="radio" id="fmale" name="male" value="male">
-                <label for="fgender">Nam</label>
-                <input type="radio" id="ffemale" name="female" value="female">
-                <label for="fgender">Nữ</label><br>
+                <div>
+                    <label style="width: 30%; display: inline-block;" for="fgender">Giới tính:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                    <input type="radio" id="fmale" name="male" value="male">
+                    <label for="fgender">Nam</label>
+                    <input type="radio" id="ffemale" name="female" value="female">
+                    <label for="fgender">Nữ</label><br>
+                </div>
             </div>
-            <img width="10%" src="./assets/img/success-png-free-successpng-transparent-images-1052-pngio-free-png-success-992_992.png" alt="success">
+            <img style="width: 10%;" src="./assets/img/success-png-free-successpng-transparent-images-1052-pngio-free-png-success-992_992.png" alt="success">
         </fieldset>
         <div style="float: right;">
             <input type="reset" value="Làm lại" style="text-decoration: underline dotted; background: none; border: none; cursor: pointer">
