@@ -17,71 +17,92 @@
     <form action="./bai_th1a.html">
         <fieldset>
             <legend>Kỹ năng mềm cần có</legend>
-            <div style="margin: 0 100px;">
-                <div style="width:50%; float:left">
-                    <input type="checkbox" id="skill1" name="skill1" value="muctieu">
-                    <label for="skill1"> Kỹ năng đặt mục tiêu</label>
-                    <br>
-                    <input type="checkbox" id="skill2" name="skill2" value="muctieu">
-                    <label for="skill2"> Sáng tạo trong công việc</label>
-                    <br>
-                    <input type="checkbox" id="skill3" name="skill3" value="muctieu">
-                    <label for="skill3"> Biết lắng nghe và học tập những lời phê bình</label>
-                    <br>
-                    <input type="checkbox" id="skill4" name="skill4" value="muctieu">
-                    <label for="skill4"> Giao tiếp hiệu quả</label>
-                    <br>
-                    <input type="checkbox" id="skill5" name="skill5" value="muctieu">
-                    <label for="skill5"> Tự tin, năng động và biết lôi kéo người khác</label>
-                    <br>
-                </div>
-                <div>
-                    <input type="checkbox" id="skill6" name="skill6" value="muctieu">
-                    <label for="skill6"> Kỹ năng làm việc đồng đội</label>
-                    <br>
-                    <input type="checkbox" id="skill7" name="skill7" value="muctieu">
-                    <label for="skill7"> Kỹ năng khám phá và lãnh đạo bản thân</label>
-                    <br>
-                    <input type="checkbox" id="skill8" name="skill8" value="muctieu">
-                    <label for="skill8"> Kỹ năng tổ chức công việc và quản lý thời gian</label>
-                    <br>
-                    <input type="checkbox" id="skill9" name="skill9" value="muctieu">
-                    <label for="skill9"> Kỹ năng ra quyết định</label>
-                    <br>
-                    <input type="checkbox" id="skill10" name="skill10" value="muctieu">
-                    <label for="skill10"> Kỹ năng giải quyết vấn đề</label>
-                    <br>
-                </div>
-                <label for="">Ý kiến khác:</label>
-                <textarea name="" style="width:70%"></textarea>
-            </div>
+            <table>
+                <tr>
+                    <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+                    <td>                        
+                        <input type="checkbox" id="skill1" name="skill1" value="muctieu">
+                        <label for="skill1"> Kỹ năng đặt mục tiêu</label>
+                        <br>
+                        <input type="checkbox" id="skill2" name="skill2" value="muctieu">
+                        <label for="skill2"> Sáng tạo trong công việc</label>
+                        <br>
+                        <input type="checkbox" id="skill3" name="skill3" value="muctieu">
+                        <label for="skill3"> Biết lắng nghe và học tập những lời phê bình</label>
+                        <br>
+                        <input type="checkbox" id="skill4" name="skill4" value="muctieu">
+                        <label for="skill4"> Giao tiếp hiệu quả</label>
+                        <br>
+                        <input type="checkbox" id="skill5" name="skill5" value="muctieu">
+                        <label for="skill5"> Tự tin, năng động và biết lôi kéo người khác</label>
+                        
+                    </td>
+                    <td>&emsp;&emsp;</td>
+                    <td>
+                        <input type="checkbox" id="skill6" name="skill6" value="muctieu">
+                        <label for="skill6"> Kỹ năng làm việc đồng đội</label>
+                        <br>
+                        <input type="checkbox" id="skill7" name="skill7" value="muctieu">
+                        <label for="skill7"> Kỹ năng khám phá và lãnh đạo bản thân</label>
+                        <br>
+                        <input type="checkbox" id="skill8" name="skill8" value="muctieu">
+                        <label for="skill8"> Kỹ năng tổ chức công việc và quản lý thời gian</label>
+                        <br>
+                        <input type="checkbox" id="skill9" name="skill9" value="muctieu">
+                        <label for="skill9"> Kỹ năng ra quyết định</label>
+                        <br>
+                        <input type="checkbox" id="skill10" name="skill10" value="muctieu">
+                        <label for="skill10"> Kỹ năng giải quyết vấn đề</label>
+                        <br>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+                    <td>
+                        <label>Ý kiến khác:</label><textarea name="" rows="" cols="80"></textarea>
+                    </td>
+                </tr>
+            </table>            
         </fieldset><br>
     
-        <fieldset style="display: flex;  align-items: stretch;">
+        <fieldset>
             <legend>Thông tin cá nhân</legend>
-            <div style="display: flex; flex-direction: column; margin-right: 30%; justify-content: space-evenly;">
-                <div>
-                    <label for="fname">Họ và tên:</label>
-                    <input type="text" id="fname" name="fname" value=""><br>
-                </div>
-                <div>
-                    <label for="fold">Độ tuổi:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
-                    <input type="number" id="quantity" name="quantity" min="18" max="24" value="18"><br>
-                </div>
-                <div>
-                    <label style="display: inline-block;" for="fgender">Giới tính:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
-                    <input type="radio" id="fmale" name="male" value="male">
-                    <label for="fgender">Nam</label>
-                    <input type="radio" id="ffemale" name="female" value="female">
-                    <label for="fgender">Nữ</label><br>
-                </div>
-            </div>
-            <img style="width: 10%;" src="./assets/img/success-png-free-successpng-transparent-images-1052-pngio-free-png-success-992_992.png" alt="success">
+            <table>
+                <tr>
+                    <td>
+                        <label for="fname">Họ và tên:</label>
+                        <input type="text" id="fname" name="fname" value="">
+                        <br><br>
+                        <label for="fold">Độ tuổi:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                        <input type="number" id="quantity" name="quantity" min="18" max="24" value="" placeholder="18-24">
+                        <br><br>
+                        <label style="display: inline-block;" for="fgender">Giới tính:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                        <input type="radio" id="fmale" name="fgender" value="male">
+                        <label for="fgender">Nam</label>
+                        <input type="radio" id="fmale" name="fgender" value="female">
+                        <label for="fgender">Nữ</label><br>
+                    </td>
+                    <td>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    </td>
+                    <td>
+                        <img width="100px" src="./assets/img/success-png-free-successpng-transparent-images-1052-pngio-free-png-success-992_992.png" alt="success">
+                    </td>
+                </tr>
+            </table>
         </fieldset>
-        <div style="float: right;">
+        <div align="right">
             <input type="reset" value="Làm lại" style="text-decoration: underline dotted; background: none; border: none; cursor: pointer">
             <input type="submit" value="Gửi khảo sát" style="text-decoration: underline dotted; background: none; border: none; cursor: pointer">
         </div>
-    </form>
+    </form><br>
+    <center>
+        <p>Cảm ơn bạn đã tham gia khảo sát!</p>
+    </center>
 </body>
 </html>
